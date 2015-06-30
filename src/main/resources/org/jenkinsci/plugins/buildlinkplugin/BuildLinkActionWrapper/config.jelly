@@ -1,9 +1,0 @@
-<?jelly escape-by-default='true'?>
-<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:sl="/org/jenkinsci/plugins/buildlinkplugin">
-   <f:optionalBlock name="sidebar-links" title="${%Add Side Links for Build}"
-     checked="${!empty(instance.links)}" help="/plugin/build-link-plugin/help-project.html">
-    <f:entry>
-      <sl:links links="${instance.links}"/>
-    </f:entry>
-  </f:optionalBlock>
-</j:jelly>
