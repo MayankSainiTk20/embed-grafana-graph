@@ -17,6 +17,10 @@ import net.sf.json.JSONObject;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
 
+/**
+ * Set the link for build page
+ * @author Mayank Saini
+ */
 public class BuildLinkActionWrapper extends BuildWrapper {
 	
 
