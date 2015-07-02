@@ -18,6 +18,10 @@ import org.jenkinsci.plugins.embedgrafanalinks.Messages;
 import org.kohsuke.stapler.StaplerRequest;
 import org.kohsuke.stapler.StaplerResponse;
 
+/**
+ * Get the data of links from the links.jelly
+ * @author Mayank Saini
+ */
 public class GrafanaLinkPlugin extends Plugin {
     private List<LinkAction> links = new ArrayList<LinkAction>();
 
