@@ -19,7 +19,7 @@ import org.kohsuke.stapler.StaplerRequest;
 import org.kohsuke.stapler.StaplerResponse;
 
 /**
- * Get the data of links from the links.jelly
+ * Add side link in job panel
  * @author Mayank Saini
  */
 public class GrafanaLinkPlugin extends Plugin {
