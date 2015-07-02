@@ -6,7 +6,10 @@ import hudson.model.AbstractBuild;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * Set the action for build 
+ * @author Mayank Saini
+ */
 public class BuildLinkAction implements Action {
 	private AbstractBuild build;
 	private String urlname;
