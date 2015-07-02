@@ -60,7 +60,7 @@ private String displayname;
 	public String getIframeURL() 
 	{
 		
-		System.out.println("GetIframeUrl Executed with the URL "+urlname+" value of i "+i);	
+	
 	return this.urlname;
 	}
 	
