@@ -16,7 +16,10 @@ import net.sf.json.JSONObject;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
 
-
+/**
+ * Set  the link for Project Page
+ * @author Mayank Saini
+ */
 public class ProjectLinksAction extends JobProperty<AbstractProject<?,?>> {
     private List<LinkAction> links = new ArrayList<LinkAction>();
     
