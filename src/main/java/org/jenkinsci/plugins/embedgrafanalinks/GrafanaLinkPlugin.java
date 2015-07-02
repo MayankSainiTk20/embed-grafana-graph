@@ -19,7 +19,7 @@ import org.kohsuke.stapler.StaplerRequest;
 import org.kohsuke.stapler.StaplerResponse;
 
 /**
- * Add side link in job panel
+ * Add side link in dashboard panel
  * @author Mayank Saini
  */
 public class GrafanaLinkPlugin extends Plugin {
